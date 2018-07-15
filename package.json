@@ -1,0 +1,22 @@
+{
+  "name": "crypt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "infarmer",
+  "license": "ISC",
+  "dependencies": {
+    "ajax-request": "^1.2.3",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-bearer-token": "^2.1.1",
+    "mysql": "^2.15.0",
+    "promise-mysql": "^3.3.1"
+  }
+}
